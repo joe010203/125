@@ -7,6 +7,27 @@
 # Or follow updates at https://a.dove.isdumb.one/telegram
 # Last update: 2026-04-01 17:58 UTC
 payload:
+  - DOMAIN-SUFFIX,adobe.io
+  - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,adobe.net
+  - DOMAIN-SUFFIX,adobesc.com
+  - DOMAIN-SUFFIX,adobecc.com
+  - DOMAIN-SUFFIX,adobelogin.com
+  - DOMAIN-SUFFIX,adobeauth.com
+  - DOMAIN-SUFFIX,adobegenuine.com
+  - DOMAIN-SUFFIX,adobeccstatic.com
+  - DOMAIN-SUFFIX,licenses.adobe.com
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,oobesaas.adobe.com
+  - DOMAIN-SUFFIX,adobestats.io
+  - DOMAIN,0ll0pluhtu.75rah.adobestats.io
+  - DOMAIN,ffc-static-cdn.oobesaas.adobe.com
+  - DOMAIN,adobeid-na1.services.adobe.com
+  - DOMAIN,firefly-azure.adobe.io
+  - DOMAIN,lcs-cops.adobe.io
+  - DOMAIN,lcs-roaming.adobe.io
+  - DOMAIN,assets.adobedtm.com
+  - DOMAIN,service.account.adobe.com
   - DOMAIN,ic.adobe.io
   - DOMAIN,cc-api-data.adobe.io
   - DOMAIN,fp.adobestats.io
