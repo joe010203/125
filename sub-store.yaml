@@ -10,14 +10,25 @@ proxy-groups:
       - "⚖️ 美国均衡"
     include-all-proxies: true
 
-  - name: "🤖 AI"
+  - name: "🧠 GPT-Claude"
     type: select
     proxies:
-      - "🚀 节点选择"
-      - "⚖️ 新加坡均衡"
-      - "⚖️ 美国均衡"
       - "🇺🇲 美国节点"
+      - "⚖️ 美国均衡"
       - "🇸🇬 新加坡节点"
+      - "⚖️ 新加坡均衡"
+      - "🚀 节点选择"
+      - DIRECT
+    include-all-proxies: true
+
+  - name: "✨ Gemini"
+    type: select
+    proxies:
+      - "🇺🇲 美国节点"
+      - "⚖️ 美国均衡"
+      - "🇸🇬 新加坡节点"
+      - "⚖️ 新加坡均衡"
+      - "🚀 节点选择"
       - DIRECT
     include-all-proxies: true
 
@@ -92,7 +103,9 @@ rule-providers:
   banprogramad:    {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"}
   steamcn:         {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list"}
   youtube:         {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"}
-  ai:              {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/joe010203/125/refs/heads/main/AI.list"}
+  openai:          {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/joe010203/125/refs/heads/main/OpenAI.list"}
+  claude:          {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/joe010203/125/refs/heads/main/Claude.list"}
+  gemini:          {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/joe010203/125/refs/heads/main/Gemini.list"}
   epic:            {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list"}
   origin:          {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list"}
   sony:            {type: http, behavior: classical, format: text, interval: 86400, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list"}
@@ -115,7 +128,9 @@ rules:
   - RULE-SET,steamcn,DIRECT
   # 分流服务
   - RULE-SET,youtube,📹 YouTube
-  - RULE-SET,ai,🤖 AI
+  - RULE-SET,openai,🧠 GPT-Claude
+  - RULE-SET,claude,🧠 GPT-Claude
+  - RULE-SET,gemini,✨ Gemini
   - RULE-SET,epic,🎮 游戏平台
   - RULE-SET,origin,🎮 游戏平台
   - RULE-SET,sony,🎮 游戏平台
