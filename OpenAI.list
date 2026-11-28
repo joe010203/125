@@ -12,16 +12,9 @@ DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,prodregistryv2.org
-DOMAIN-SUFFIX,workos.com
-DOMAIN-SUFFIX,workoscdn.com
 DOMAIN,workos.imgix.net
 DOMAIN-SUFFIX,ct.sendgrid.net
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
 DOMAIN,rum.browser-intake-datadoghq.com
