@@ -1,38 +1,3 @@
-# 內容: OpenAI / ChatGPT
-# DOMAIN-KEYWORD,openai 已涵蓋 cdn.openaimerge.com、openaiapi-site.azureedge.net、openai.azure.com
-DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chat.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,oaistatsig.com
-DOMAIN-SUFFIX,statsig.com
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,featureassets.org
-DOMAIN-SUFFIX,prodregistryv2.org
-DOMAIN-SUFFIX,workos.com
-DOMAIN-SUFFIX,workoscdn.com
-DOMAIN,workos.imgix.net
-DOMAIN-SUFFIX,ct.sendgrid.net
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN,rum.browser-intake-datadoghq.com
-
-# 內容: Claude / Anthropic
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,claude
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-
 # 內容: Gemini / AI Studio / NotebookLM / Labs / DeepMind
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
